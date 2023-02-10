@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+.journey{
+    width: 80vw;
+    height: auto;min-height: 80vh;
+    color: white;
+    margin: auto;
+    background-color: rgb(16, 17, 18);
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 30px;
+}
+.journeyimagea{
+    width: 100%;
+
+}
+.journeyimagea img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 300px;
+    mask-image: none;
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.journeyimageb{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.journeyimageb img{
+    width: 300px;
+    opacity: 0.3;
+    height: auto;
+    margin: 50px auto;
+    object-fit: cover;
+    height: 300px;
+    /* -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); */
+}
+.journey h2{
+    font-size: 1.3rem;
+}
+.journey p{
+    margin-top: 7px;
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+
+}
+.text{
+    width: 90%;
+    margin: auto;
+}
+.journey h1{
+    text-transform: uppercase;
+    font-size: 3.8rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -67vh;
+    margin-bottom: 100px;
+    color: white !important;
+    mask-image: none;
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgba(255, 255, 255)));
+    z-index: 4 !important;
+}
+@media screen and (max-width: 780px) {
+    .journey h1{
+        margin-top: -90vh !important;
+    }
+    .journey{
+        width: 92vw;
+    }
+}

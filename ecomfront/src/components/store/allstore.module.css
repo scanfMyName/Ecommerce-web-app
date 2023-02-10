@@ -1,0 +1,220 @@
+.all{
+    width: 100vw;
+    height: auto;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.filterdiv{
+width: 22%;
+height: fit-content;
+min-height: 70vh;
+background-color: white;
+margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.shoediv{
+    background-color: white;
+    width: 44%;
+    height: auto;
+    min-height: 70vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.cartdiv{
+    background-color: white;
+    width: 22%;
+    min-height: 70vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.shoedivheader, .filterdivheader{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.shoedivheader div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.shoedivheader p{
+    margin: 0 20px;
+}
+.filterdivheader div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.filterdivheader p{
+    margin: 0 20px;
+}
+.shoedivheader select{
+    margin: 0 20px 0 0;
+    padding: 2px 9px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 15px;
+}
+.shoedivbody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.shoecard{
+    width: 150px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+.shoecard img{
+    width: 100%;
+    height: 150px;
+}
+.shoecard div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.shoecard p{
+    font-weight: bold;
+    text-align: left;
+}
+.shoecard div p{
+    font-size: 0.8rem;
+}
+.remaining{
+    padding-left: 20px;
+}
+.remaining div{
+    /* margin-bottom: 30px; */
+    margin:5px 0;
+}
+.remaining p{
+    margin-top: 5px ;
+    font-size: 1.5rem;
+}
+.remaining div p{
+    font-size: 1rem;
+}
+.filterbutton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+.filterbutton button{
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    padding: 2px 9px;
+    font-size: 1.2rem;
+    border: 0px;
+    margin: 0 auto !important;
+}
+
+.cartdiv button{
+    padding: 2px 9px;
+    margin-bottom: 20px;
+    background-color: grey;
+    color: white;
+    border: 0px;
+    font-size: 1.2rem;
+}
+.filterdivheader img, .shoedivheader img{
+    width: 40px;
+}
+@media screen and (max-width: 1000px) {
+.filterdiv{
+    width: 80%;
+}
+.shoediv{
+    width: 50%;
+}
+.cartdiv{
+    width: 29%;
+    margin-left: 20px;
+}
+.all{
+    justify-content: center;
+}
+}
+@media screen and (max-width: 680px) {
+    .filterdiv{
+        width: 80%;
+    }
+    .shoediv{
+        width:80%;
+    }
+    .cartdiv{
+        width: 80%;
+        margin-left: 0;
+    }
+    .shoecard{
+        width: 40%;
+        margin: 5%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .shoecard{
+        width: 80%;
+        margin: 10%;
+    }
+}
+.remaining div div{
+    display: flex;
+    align-items: center;
+}
+.remaining p{
+    margin-top: 20px;
+    margin-left: 6px;
+}
+.remaining div div p{
+    margin-top: 1px;
+    margin-left: 15px;
+}
+.remaining div div input{
+    width: 15px;
+    height: 15px;
+    border-radius:0px !important;
+    margin-left: 7px;
+    margin-top: 0;
+}
+/* 
+.filterdivheader{
+height: 20% !important;
+}
+.remaining{
+    height: 70% !important;
+}
+.filterbutton{
+    height: 10% !important;
+} */
+
+.shoedivbody button{
+    border: 0px;
+    background-color: rgba(240, 248, 255, 0);
+    cursor: pointer;
+}

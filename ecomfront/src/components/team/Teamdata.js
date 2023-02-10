@@ -1,0 +1,48 @@
+export const Teamdata = [
+    {
+      id: "member1",
+      url: require("../images/zidane.jpg"),
+      name: "Zidane",
+      role: "Leadership & management",
+      linkurla: require("../images/facebook.png"),
+      linkurlb: require("../images/facebook.png"),
+      linkurlc: require("../images/facebook.png"),
+    },
+    {
+      id: "member2",
+      url: require("../images/tonikroos.jpg"),
+      name: "Toni Kroos",
+      role: "Product developer",
+      linkurla: require("../images/facebook.png"),
+      linkurlb: require("../images/facebook.png"),
+      linkurlc: require("../images/facebook.png"),
+    },
+    {
+      id: "member3",
+      url: require("../images/ikercasillas.jpg"),
+      name: "Iker Casillas",
+      role: "Marketing strategy",
+      linkurla: require("../images/facebook.png"),
+      linkurlb: require("../images/facebook.png"),
+      linkurlc: require("../images/facebook.png"),
+    },
+    {
+      id: "member4",
+      url: require("../images/james.jpg"),
+      name: "James",
+      role: "Product designer",
+      linkurla: require("../images/facebook.png"),
+      linkurlb: require("../images/facebook.png"),
+      linkurlc: require("../images/facebook.png"),
+    },
+    {
+      id: "member5",
+      url: require("../images/christiano.jpg"),
+      name: "Cristiano",
+      role: "Financial operations",
+      linkurla: require("../images/facebook.png"),
+      linkurlb: require("../images/facebook.png"),
+      linkurlc: require("../images/facebook.png"),
+    },
+  ];
+  

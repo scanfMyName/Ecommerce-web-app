@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.team{
+    display: flex;
+    min-height:calc(100vh - 100px);
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.team h1{
+    font-size: 1.6rem;
+    margin-bottom: 60px;
+    margin-top: 80px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.finaltext h1{
+    font-size: 1.8rem;
+    margin-top: 30px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.card{
+    width: 198px;
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    margin-top: 30px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 20px;
+}
+.cardimage{
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+}
+.cardimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card h2{
+    margin-top: 30px;
+}
+.card p{
+    font-size: 15px;
+}
+.members{
+    width: 100vw;
+    min-height: 400px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imageicon{
+    
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 8px;
+    margin-top: 15px;
+}
+img{
+    object-fit: cover;
+
+    width: 20px;
+    height: 20px;
+}

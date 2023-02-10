@@ -1,0 +1,9 @@
+body{
+    /* background-image: url("../src/components/images/back.png") ; */
+    /* background-size: cover; */
+}
+
+a{
+    text-decoration: none !important;
+    color: black;
+}

@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.left{
+    width: 72%;
+    height: fit-content;
+    min-height: 70vh;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.shoe{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.leftheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.leftheader p{
+    margin: 30px;
+}
+.leftheader p:nth-child(1){
+    font-size: 40px;
+    font-weight: lighter;
+}
+.leftbody{
+    width: 90%;
+    flex-wrap: wrap;
+    margin:auto;
+    height: auto;
+    min-height: 300px;
+    background-color: white;
+}
+.starp{
+    width: 100%;
+    text-align: left;
+}
+.leftfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.leftfooter button{
+    width: 130px;
+    height: 30px;
+    padding: 2px 8px;
+    font-size: 1.2rem;
+    margin: 5px 10px 20px 10px; 
+    border:  0px;
+    background-color: black;
+    color: white;
+}
+.leftfooter button:nth-child(1){
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.rdetails{
+    /* width: 27%; */
+    /* margin-left: 20px; */
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+.rdetails h2{
+    font-size: 0.9rem;
+}
+.rdetails h1{
+    font-size: 1.1rem;
+}
+.rdetails p{
+    font-size: 0.7rem;
+}
+.rdetails div{
+    margin-top: 14px;
+}
+.limages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100% !important;
+    background-color:white;
+    width: 16%;
+}
+.limage{
+    width: 47%;
+    background-color: rgb(255, 255, 255);
+}
+.limage img{
+    width: 100%;
+    height: 100%;
+}
+.limages img{
+    border: 1px solid rgb(255, 255, 255);
+    width: 90%;
+    height: 33% !important;
+    margin: 5%;
+}
+.leftbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cartdiv{
+    background-color: white;
+    width: 22vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* overflow-Y: scroll !important; */
+
+}
+.cartdiv button{
+    padding: 2px 9px;
+    margin-bottom: 20px;
+    background-color: grey;
+    margin-top: 12px;
+    color: white;
+    border: 0px;
+    font-size: 1.2rem;
+}
+.filterdivheader div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.filterdivheader p{
+    margin: 0 20px;
+}
+.filterdivheader{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* height: 70px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.boxes h5{
+    margin-right: 20px;
+}
+.boxes .box{
+    width: 30px;
+    height: 30px;
+    /* background-color: rgb(15, 34, 50); */
+    margin: 10px 5px;
+   
+}
+.boxsole{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(15, 34, 50);
+    margin: 10px 5px;
+}
+.boxsize{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: black;
+    margin: 10px 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.boxsole:nth-child(2){
+    background-color: black;
+}
+.boxsole:nth-child(3){
+    background-color: rgb(123, 212, 247);
+}
+.boxsole:nth-child(4){
+    background-color: rgb(255, 255, 255);
+}
+.box:nth-child(2){
+    background-image: url('../images/blackwhite.png');
+}
+.box:nth-child(3){
+    background-image: url('../images/blue.png');
+}
+.box:nth-child(4){
+    background-image: url('../images/bluewhite.png');
+}
+.cartcontent{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.cartcontent button{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid red;
+    color: red;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-right: -18px;
+    z-index: 2;
+    font-size: 0.3rem;
+    font-weight: lighter;
+}
+.cartcontent img{
+    width: 100px;
+    height: 100px;
+}
+.box input{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.boxsole input{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.boxsize input{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+@media screen and (max-width: 950px) {
+    .left{
+        width: 80%;
+        margin: 20px 10%;
+    }
+    .cartdiv{
+        width: 80%;
+        margin: 20px 10%;
+        margin: 20px 10%;
+    min-width: 50vw;
+    width: fit-content;
+    max-width: 80vh;
+    }
+    .cartcontent{
+        width: 300px;
+    }
+}
+@media screen and (max-width:850px){
+.limage{
+width: 72%;
+}
+.limages{
+    width: 25%;
+}
+.rdetails{
+    width: 89%;
+}
+}
+.ordernow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
+}
+.designer{
+    text-align: center;
+}
+
+.filterdivheader{
+    height: 10%;
+}
+.cartshoes{
+    min-height: 50vh;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+.des{
+    height: 15%;
+    margin-top: 20px;
+}
+.color{
+display: flex;
+}
+.color div{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.color div input{
+    width: 100%;
+    height: 100%;
+    margin: 0 6px;
+    opacity: 0.3;
+}
+.leftheader button{
+    border: 0px;
+    width: auto;
+    height: auto;
+    background-color: white;
+    cursor: pointer;
+}
+.leftfooter button{
+    cursor: pointer;
+}
+
+.color div:nth-child(1){background-color: red;}
+.color div:nth-child(2){background-color: blue;}
+.color div:nth-child(3){background-color: yellow;}
+.color div:nth-child(4){background-color: rgb(204, 204, 204);}
+.color div:nth-child(5){background-color: black;}
