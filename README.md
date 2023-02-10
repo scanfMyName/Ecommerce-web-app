@@ -15,12 +15,17 @@ npm start
 
 
 
-Open another terminal and in the app folder and do
+Open another terminal and in the app folder and write:-
+
 nodeomn
+
+and enter
+
+
 
 All set to see the app
 Here I am assuming you have setup the config file in the config folder of app for your own mySql setup
 
 There are same apis which are available by backend but not using in frontapp
-like user/create--user etc..
+like user/create--user , createting a product etc..
 Just check the route file for each folder (except the ecomfront) in the main folder, you will get there.
